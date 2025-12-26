@@ -8,6 +8,9 @@ function showNotify(name) {
       <span class="text-xl">👋</span>
       <p class="font-bold text-slate-800"> Say hi to ${name}!</p>
   `;
+  const messageDrop = new Audio(`Utilities/new-notification-022-370046.mp3`)
+  messageDrop.play()
+
   document.body.appendChild(notification);
   setTimeout(() => {
     notification.style.opacity = "0";
