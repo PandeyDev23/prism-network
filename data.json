@@ -1,0 +1,37 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "name": "David Bowie",
+      "handle": "@david_bowie12",
+      "role": "Product Designer",
+      "gradient": "linear-gradient(to bottom, #A1C4FD 0%, #C2E9FB 100%)",
+      "skills": ["Adobe photoshop", "Notion", "Motion Design", "Webflow"],
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=David",
+      "isPro": true,
+      "isWizard": true
+    },
+    {
+      "id": 2,
+      "name": "Emilia C.",
+      "handle": "@emilia_chin7",
+      "role": "UI/UX Designer",
+      "gradient": "linear-gradient(to bottom, #ff9a9e 0%, #fecfef 100%)",
+      "skills": ["Illustrator", "Webflow", "Framer", "CSS"],
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Emilia",
+      "isPro": true,
+      "isWizard": false
+    },
+    {
+      "id": 3,
+      "name": "Axelins",
+      "handle": "@axelius_dev",
+      "role": "Frontend Developer",
+      "gradient": "linear-gradient(to bottom, #84fab0 0%, #8fd3f4 100%)",
+      "skills": ["React", "Tailwind", "GSAP", "Three.js"],
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Axel",
+      "isPro": false,
+      "isWizard": true
+    }
+  ]
+}
